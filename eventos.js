@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     saludar.addEventListener("click", function (event) {
         event.stopPropagation(); 
-        saludar();
     });
 });
 
