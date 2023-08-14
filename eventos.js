@@ -3,8 +3,8 @@ function saludar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    const Divsaluda = document.getElementById("Divsaluda");
-    const saludar = document.getElementById("botonsal"); 
+    let Divsaluda = document.getElementById("Divsaluda");
+    let saludar = document.getElementById("botonsal"); 
     Divsaluda.addEventListener("click", function () {
         alert("Hola! Soy el div");
     });
